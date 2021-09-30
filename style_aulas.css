@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/******************************************* Menu bar *****************************************************/
+.menu_bar{
+    background-color: rgb(248, 151, 25);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    height: 50px;
+    padding: 15px;
+    float: left;
+}
+.menu_list{
+    text-align: center;
+    margin-top: 27px;
+    margin-right: 150px;
+}
+.anchor1{
+    margin-right: 115px;
+    font-size: 25px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.anchor1:hover{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.anchor1:visited{
+    text-decoration: none;
+}
+/**********************************************************************************************************/
+
+
+
+/****************************************************** aula ************************************************/
+.aula{
+    padding-top: 150px;
+    overflow:hidden;
+
+}
+.aula img{
+    border-radius: 15px;
+    float: left;
+    margin-left: 150px;
+    height: 500px;
+}
+.aula h2{
+    font-size: 40px;
+    color: gray;
+}
+.aula p{
+    font-size:30px;
+}
+.aula_text{
+    padding-left: 55%;
+    margin-top: 120px;
+}
+/************************************************************************************************************/
+
+
+
+/****************************************************** coach ************************************************/
+.coach{
+    padding-top: 100px;
+    overflow:hidden;
+}
+.coach img{
+    border-radius: 15px;
+    float: right;
+    margin-right: 150px;
+    height: 300px;
+}
+.coach h2{
+    font-size: 40px;
+    color: gray;
+}
+.coach p{
+    font-size:30px;
+}
+.coach_text{
+    display: inline-block;
+    padding-left: 25%;
+    margin-top: 70px;
+}
+/************************************************************************************************************/
+
+
+
+
+
+/*********************************************** Footer *************************************************************/
+.ftr{
+    position: relative; top: 200px;
+    background-color: rgb(248, 151, 25) ;
+    width: 100%;
+    height: 200px;
+}
+.social_media{
+    text-align: center;
+    padding-top: 40px;
+}
+.social_media a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.social_media img{
+    height: 60px;
+}
+
+.footer_menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_menu a{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+}
+.footer_menu a:hover{
+    color:rgb(70, 70, 70);
+}
+.credits{
+    text-align: center;
+}
+.credits p{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: black;
+    font-size: 15px;
+}
+
+.ftr hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-color: black;
+
+}
+/***************************************************************************************/
+
+
+
+
+/**************************************************************************************************************************************/
+/**************************************************************************************************************************************/
+/************************************************************** Responsive ************************************************************/
+/**************************************************************************************************************************************/
+/**************************************************************************************************************************************/
+
+
+
+@media screen and (max-width:400px){
+    
+
+    /******************************************* RESPONSIVE Menu bar *****************************************************/
+    
+    .logo{
+        float: none;
+        display: inline-block;
+        margin-left: 26%;
+    }
+    .menu_list{
+        margin-top: 10px;
+        margin-right: 0;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .anchor1{
+        margin-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /**********************************************************************************************************/
+
+
+    /****************************************************** RESPONSIVE aula ************************************************/
+.aula{
+    padding-top: 180px;
+}
+.aula img{
+    float: none;
+    margin-left: 12%;
+    height: 300px;
+}
+.aula_text{
+    padding-left: 10%;
+    margin-top: 20px;
+}
+/************************************************************************************************************/
+
+
+/****************************************************** RESPONSIVE coach ************************************************/
+.coach{
+    padding-top: 10px;
+    /* overflow:hidden; */
+}
+.coach img{
+    float: none;
+    margin-left: 8%;
+    height: 200px;
+    margin-top: 30px;
+}
+.coach_text{
+    display: inline-block;
+    padding-left: 10%;
+    margin-top: 22px;
+}
+/************************************************************************************************************/
+
+
+/********************************************* RESPONSIVE Footer *************************************************************/
+
+.ftr{
+    position: relative; top: 200px;
+}
+.social_media{
+    padding-top: 20px;
+}
+
+.footer_menu{
+    margin-top: 15px;
+}
+
+.credits{
+    text-align: center;
+}
+.credits p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+}
+
+/***************************************************************************************/
+
+
+}
+
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/

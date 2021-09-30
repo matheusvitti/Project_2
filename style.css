@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/******************************************* Menu bar *****************************************************/
+.menu_bar{
+    background-color: rgb(248, 151, 25);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    height: 50px;
+    padding: 15px;
+    float: left;
+}
+.menu_list{
+    text-align: center;
+    margin-top: 27px;
+    margin-right: 150px;
+}
+.anchor1{
+    margin-right: 115px;
+    font-size: 25px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.anchor1:hover{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.anchor1:visited{
+    text-decoration: none;
+}
+/**********************************************************************************************************/
+
+
+
+
+
+/*********************************************** Background Image ***********************************************/
+.background{
+    position: relative;
+    top: 60px;
+    background-image: url(./images/background2.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+/*****************************************************************************************************************/
+
+
+
+
+/********************************************* Middle Text  **************************************************/
+.middle_content{
+    position: relative;
+    top: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text_1{
+    display: block;
+    padding: 40px;
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: rgba(255, 255, 255, 0.473);
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+}
+
+.middle_content h2{
+    color: rgb(248, 151, 25);
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.middle_content ul{
+    text-align: left;
+    list-style: none;
+    font-size: 25px;
+    padding: 40px;
+    margin-left: 22%;
+    border-radius: 25px;
+}
+
+.middle_content li{
+    margin-bottom: 15px;
+    padding-left: 100px;
+    color: rgb(207, 207, 207);  
+}
+
+.middle_content img{
+    height: 20px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.background_2{
+    background-image: url(./images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.background_2mask{
+    background-color: rgba(0, 0, 0, 0.719);
+}
+/********************************************************************************************************************/
+
+/*********************************************** Google map **********************************************************/
+.google_map{
+    border-radius:15px;
+    width:500px;
+    height:350px;
+}
+/********************************************************************************************************************/
+
+
+/*********************************************** Footer *************************************************************/
+.ftr{
+    position: relative; top: 200px;
+    background-color: rgb(248, 151, 25) ;
+    width: 100%;
+    height: 200px;
+}
+.social_media{
+    text-align: center;
+    padding-top: 40px;
+}
+.social_media a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.social_media img{
+    height: 60px;
+}
+
+.footer_menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_menu a{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+}
+.footer_menu a:hover{
+    color:rgb(70, 70, 70);
+}
+.credits{
+    text-align: center;
+}
+.credits p{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: black;
+    font-size: 15px;
+}
+
+.ftr hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-color: black;
+
+}
+/***************************************************************************************/
+
+
+
+
+
+/**************************************************************************************************************************************/
+/**************************************************************************************************************************************/
+/************************************************************** Responsive ************************************************************/
+/**************************************************************************************************************************************/
+/**************************************************************************************************************************************/
+
+
+
+@media screen and (max-width:400px){
+    
+
+/******************************************* RESPONSIVE Menu bar *****************************************************/
+
+.logo{
+    float: none;
+    display: inline-block;
+    margin-left: 26%;
+}
+.menu_list{
+    margin-top: 10px;
+    margin-right: 0;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.anchor1{
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/**********************************************************************************************************/
+
+
+/*********************************************** RESPONSIVE Background Image ***********************************************/
+.background{
+    top: 140px;
+    height: 200px;
+    width: 400PX;
+
+}
+/*****************************************************************************************************************/
+
+/********************************************* RESPONSIVE Middle Text  **************************************************/
+
+.text_1{
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.middle_content ul{
+    list-style: none;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 2%;
+}
+
+.middle_content li{
+    padding-left: 10px;
+}
+/********************************************************************************************************************/
+
+
+
+/******************************************** RESPONSIVE google map *************************************************/
+.google_map{
+    width:90%;
+}
+/*********************************************************************************************************************/
+
+
+
+/********************************************* RESPONSIVE Footer *************************************************************/
+
+.social_media{
+    padding-top: 20px;
+}
+
+.footer_menu{
+    margin-top: 15px;
+}
+
+.credits{
+    text-align: center;
+}
+.credits p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+}
+
+/***************************************************************************************/
+
+
+}
+
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/
+/**************************************************************************************************/
