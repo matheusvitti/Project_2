@@ -57,7 +57,7 @@ body{
 .background{
     position: relative;
     top: 60px;
-    background-image: url(./images/background2.jpg);
+    background-image: url(./images/background2.JPG);
     background-size: cover;
     height: 600px;
 
@@ -115,7 +115,7 @@ body{
 }
 
 .background_2{
-    background-image: url(./images/background1.jpg);
+    background-image: url(./images/background1.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
